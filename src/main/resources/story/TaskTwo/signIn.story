@@ -4,15 +4,17 @@ GivenStories: story/preconditions/precondition.story
 
 When I establish baseline with `boards`
 When I compare against baseline with `boards`
-When I click on element located `By.xpath(//*[@id="content"]/div/div[2]/div/div/div/div/div[1]/nav/div[1]/ul/div/li/a/span[2])`
-When I establish baseline with `templates`
-When I compare against baseline with `templates`
-When I click on element located `By.xpath(//*[@id="content"]/div/div[2]/div/div/div/div/div[1]/nav/div[1]/ul/div/li/ul/li[2]/a/span)`
-When I establish baseline with `design`
-When I compare against baseline with `design`
-When I click on element located `By.xpath(//*[@id="content"]/div/div[2]/div/div/div/div/div[1]/nav/div[1]/ul/div/li/ul/li[3]/a/span)`
-When I establish baseline with `education`
-When I compare against baseline with `education`
-When I click on element located `By.xpath(//*[@id="content"]/div/div[2]/div/div/div/div/div[1]/nav/div[1]/ul/div/li/ul/li[5]/a/span)`
-When I establish baseline with `marketing`
-When I compare against baseline with `marketing`
+When I click on element located `By.xpath(//*[@data-test-id="header-member-menu-button"])`
+When I establish baseline with `account`
+When I compare against baseline with `account`
+When I click on element located `By.xpath(//*[@data-test-id="header-member-menu-cards"])`
+When I establish baseline with `cards`
+When I compare against baseline with `cards`
+When I click on element located `By.xpath(//*[@data-tab="activity"])`
+When I establish baseline with `activity`
+When I compare against baseline with `activity`
+When I click on element located `By.xpath(//*[@data-test-id="header-home-button"])`
+When I click on element located `By.xpath(//*[@data-test-id="home-link"])`
+When I establish baseline with `home`
+When I compare against baseline with `home`
+
