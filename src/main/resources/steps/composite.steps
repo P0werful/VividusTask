@@ -1,0 +1,5 @@
+Composite: When I fill $email, $password in registration form
+When I enter `<name>` in field located `By.xpath(//*[@id="user"])`
+When I enter `<password>` in field located `By.xpath(//*[@id="password"])`
+|email                   |password  |
+|testingfortest@test123.com|Qwerty123|
